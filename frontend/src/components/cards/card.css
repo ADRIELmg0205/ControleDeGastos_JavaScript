@@ -1,0 +1,43 @@
+.card-container {
+  width: 600px;
+  border: 3px solid purple;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 2px;
+  cursor: pointer;
+  color: purple; /* Adicionando a cor roxa para os textos dentro do card-container */
+  align-self: center;
+}
+
+.card-id {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
+  font-family: monospace;
+}
+
+.card-title {
+  display: inline;
+}
+
+.card-cost {
+  margin-top: 5px;
+}
+
+.card-container:hover {
+  background-color:purple;
+  color: white;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Para que os cards que não couberem na largura sejam movidos para a próxima linha */
+  justify-content: space-between; /* Distribui os elementos horizontalmente */
+  /* Outras propriedades de estilo conforme necessário */
+}

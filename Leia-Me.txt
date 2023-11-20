@@ -1,0 +1,13 @@
+Autor: Adriel Matheus Graupp
+
+Linguagens Usadas: JavaScript, HTML e CSS
+Banco de Dados: MySql
+
+App para Controle de Gastos
+
+Essa aplicação trata-se de um controlador de gastos, e nele é possivel:
+ - Adicionar um movimento de dinheiro, ao adicionar um movimento você pode informar a descrição, valor, e definir se é uma entrada ou saída de dinheiro;
+ - Esses movimentos são exibidos na tela onde podem ser consultados e posterirmente editados e deletados;
+ - Adicionei a possibilidade de vizualizar a data e hora em que o movimento foi adicionado no App
+ - Adicionei um campo chamado de 'Total', que exibe o total de dinheiro que o usuário tem, ou seja, ele calcula o valor total que você tem, somando as entradas e diminuindo as saídas
+ - Todas as entradas e saídas ficam salvas no banco de dados, podendo ser consultados posteriormente

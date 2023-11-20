@@ -1,0 +1,79 @@
+/* Estilos para posicionar os elementos */
+.app-container {
+  display: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.app-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px; /* Espaçamento entre os elementos */
+  background-color: purple; 
+  padding: 20px; /* Espaçamento interno */
+
+}
+
+.register-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.register-input-entrada-saida,
+.register-button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 5px; /* Espaçamento entre os campos */
+}
+
+.register-input-valor {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 5px; /* Espaçamento entre os campos */
+  width: 200px;
+}
+
+.register-input-descricao {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 5px; /* Espaçamento entre os campos */
+  width: 350px;
+}
+
+/* Estilo específico para o botão */
+.register-button {
+  background-color: White;
+  color: purple;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Estilos para o saldo total */
+p {
+  margin-top: 20px;
+}
+
+/* Adicione estilos para o parágrafo do saldo total */
+.saldo-total {
+  margin-top: 20px;
+  font-size: 18px;
+  color: white; /* Cor do texto */
+  font-weight: bold; /* Negrito */
+}
