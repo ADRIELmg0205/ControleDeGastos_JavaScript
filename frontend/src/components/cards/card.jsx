@@ -25,7 +25,7 @@ export default function Card(props) {
       <div className="card-container" onClick={() => setOpen(true)}>
 
         <p className="card-id">{props.id}</p>
-        <p className="card-cost"><strong>{props.name}</strong> - ({formatarData(props.data)})  - {props.category} de R${props.cost}</p>
+        <p className="card-cost"><strong>{props.name}</strong> - ({formatarData(props.data)})  - {props.category === "saida" ? "Saída: " : "Entrada: "}  R${props.cost}</p>
 
       </div>
     </div>

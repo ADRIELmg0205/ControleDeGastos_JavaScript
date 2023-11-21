@@ -71,15 +71,7 @@ export default function FormDialog(props) {
         <DialogTitle id="form-dialog-title">Alterar</DialogTitle>
         
         <DialogContent>
-          <TextField
-            disabled
-            margin="dense"
-            id="id"
-            label="id"
-            defaultValue={props.id}
-            type="text"
-            fullWidth
-          />
+
           <TextField
             autoFocus
             margin="dense"
@@ -100,16 +92,7 @@ export default function FormDialog(props) {
             onChange={handleChangeValues}
             fullWidth
           />
-          <TextField
-            autoFocus
-            margin="dense"
-            id="category"
-            label="Categoria"
-            defaultValue={props.category}
-            type="text"
-            onChange={handleChangeValues}
-            fullWidth
-          />
+
         </DialogContent>
         <DialogActions>
           <Button style={{ color: 'white', backgroundColor: 'blue' }} onClick={handleClose} color="primary">
